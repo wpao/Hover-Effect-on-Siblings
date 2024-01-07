@@ -1,0 +1,21 @@
+body {
+    background-color: gray;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.container:hover > :not(:hover){
+    opacity: .4;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+ 
+    background-color: aqua;
+    transition: .3s;
+}
